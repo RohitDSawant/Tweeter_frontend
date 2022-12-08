@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  /* border: 1px solid; */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar > div:nth-child(2){
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 20px;
+}
+
+.navbar img{
+  height: 50px;
+}
+
+form{
+  width: 30%;
+  margin: auto;
+  border: 1px solid silver;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 2%;
+}
+
+#submit-btn{
+  width: 40%;
+  color: white;
+  font-weight: 400;
+  background-color: teal;
+  
+}
+
+#submit-btn:hover{
+  background-color: purple;
+}
